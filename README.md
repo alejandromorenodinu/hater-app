@@ -1,4 +1,4 @@
-# NombreDeTuApp
+# HaterApp
 
 Aplicación Android de reseñas anónimas cuyo propósito es lo contrario de
 lo habitual: **advertir sobre obras de entretenimiento que NO recomendarías**
