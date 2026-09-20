@@ -1,0 +1,38 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title" />
+
+        <EditText
+            android:id="@+id/edtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/shortDesc" />
+
+        <EditText
+            android:id="@+id/edtContenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="@string/content"
+            android:minLines="4" />
+
+        <Button
+            android:id="@+id/btnPublicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/publish" />
+
+    </LinearLayout>
+</ScrollView>

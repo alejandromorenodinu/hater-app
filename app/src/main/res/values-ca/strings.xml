@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HaterApp</string>
+    <string name="favorites">Favorits</string>
+    <string name="reviewed">Ressenyes</string>
+    <string name="settings">Configuració</string>
+    <string name="welcome">Benvingut a HaterApp</string>
+    <string name="create">Publicar una ressenya</string>
+    <string name="publish">Publicar</string>
+    <string name="title">Titol</string>
+    <string name="shortDesc">Descripció curta</string>
+    <string name="content">Contingut</string>
+    <string name="rate">Valorar</string>
+    <string name="savePost">Desar a favorits</string>
+    <string name="saveConfig">Desar</string>
+    <string name="textSize">Mida de la lletra</string>
+    <string name="language">Idioma</string>
+    <string name="notifications">Notificacions</string>
+    <string name="share">Compartir</string>
+    <string name="blue">Blau</string>
+    <string name="red">Vermell</string>
+    <string name="green">Verd</string>
+    <string name="defaultTheme">Per defecte</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/settings"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/editTamañoLetra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/textSize"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/spinnerIdioma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/idiomas_array" />
+
+        <Switch
+            android:id="@+id/switchNotificaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications" />
+
+        <Spinner
+            android:id="@+id/spinnerTemas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/temas_array" />
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:text="Guardar" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

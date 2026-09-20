@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HaterApp</string>
+    <string name="favorites">Favoritos</string>
+    <string name="reviewed">Reseñados</string>
+    <string name="settings">Ajustes</string>
+    <string name="welcome">Bienvenido a HaterApp</string>
+    <string name="create">Publicar una reseña</string>
+    <string name="publish">Publicar</string>
+    <string name="shortDesc">Descripcion corta</string>
+    <string name="content">Contenido</string>
+    <string name="rate">Valorar</string>
+    <string name="title">Titulo</string>
+    <string name="savePost">Guardar en favoritos</string>
+    <string name="saveConfig">Guardar</string>
+    <string name="textSize">Tamaño de letra</string>
+    <string name="language">Idioma</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="share">Compartir</string>
+    <string name="blue">Azul</string>
+    <string name="red">Rojo</string>
+    <string name="green">Verde</string>
+    <string name="defaultTheme">Por defecto</string>
+</resources>

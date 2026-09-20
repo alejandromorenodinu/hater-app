@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BodrioApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#8B5E3C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#C9986C</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <item name="android:colorBackground">#F5EFE6</item>
+        <item name="colorOnBackground">#3D2B1F</item>
+
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#3D2B1F</item>
+
+        <item name="colorError">#B00020</item>
+        <item name="colorOnError">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.BodrioApp.Azul" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1976D2</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#03A9F4</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <item name="android:colorBackground">#E3F2FD</item>
+        <item name="colorOnBackground">#000000</item>
+
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+    </style>
+    <style name="Theme.BodrioApp.Rojo" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#C62828</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#FF5252</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <item name="android:colorBackground">#FFEBEE</item>
+        <item name="colorOnBackground">#000000</item>
+
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+    </style>
+    <style name="Theme.BodrioApp.Verde" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#2E7D32</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#66BB6A</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <item name="android:colorBackground">#E8F5E9</item>
+        <item name="colorOnBackground">#000000</item>
+
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+
+    </style>
+</resources>

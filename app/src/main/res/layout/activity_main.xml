@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/poop_emoji_png___images_free_download_6" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/favoritos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:backgroundTint="@color/design_default_color_error"
+                android:text="@string/favorites" />
+
+            <Button
+                android:id="@+id/reviewed"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:backgroundTint="@color/design_default_color_error"
+                android:text="@string/reviewed" />
+
+            <Button
+                android:id="@+id/ajustes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:backgroundTint="#D30000"
+                android:backgroundTintMode="add"
+                android:drawableTint="@color/design_default_color_error"
+                android:foregroundTint="@color/design_default_color_error"
+                android:text="@string/settings"
+                app:iconTint="@color/design_default_color_error" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@android:drawable/dialog_holo_light_frame" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="409dp"
+                android:layout_height="547dp"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerPosts"
+                    android:layout_width="match_parent"
+                    android:layout_height="584dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAddPost"
+                    android:layout_width="218dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/dialog_holo_light_frame"
+                    android:text="@string/create" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

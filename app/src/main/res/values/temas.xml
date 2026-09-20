@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temas_array">
+        <item>@string/defaultTheme</item>
+        <item>@string/blue</item>
+        <item>@string/red</item>
+        <item>@string/green</item>
+    </string-array>
+</resources>
